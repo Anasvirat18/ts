@@ -7,15 +7,14 @@ const port = process.env.PORT || 3000;
 
 // ID to M3U8 channel mapping
 const channels = {
-  '1': 'http://exm3u.extraott.com:80/live/2249871453/1991220000/400159598.m3u8',
-  '2': 'http://exm3u.extraott.com:80/live/2249871453/1991220000/401627870.m3u8',
-  '3': 'http://exm3u.extraott.com:80/live/2249871453/1991220000/187263.m3u8',
-  '4': 'http://ptu.ridsys.in/riptv/live/stream20/index.m3u8',
-  '5': 'http://exm3u.extraott.com:80/live/2249871453/1991220000/400157873.m3u8',
-  '6': 'http://udigitalott.ridsys.in/riptv/live/stream100/index.m3u8',
-  '7': 'http://udigitalott.ridsys.in/riptv/live/stream108/index.m3u8',
-  '8': 'http://udigitalott.ridsys.in/riptv/live/stream98/index.m3u8',
-  '9': 'https://list.iptvcat.com/my_list/s/cca745d8d0e7cf2056f394251f8c6212.m3u8',
+  '1': 'https://mumt02.tangotv.in/MATHRUBHUMINEWS/index.m3u8',
+  '2': 'https://list.iptvcat.com/my_list/s/19cf3fe809f36a164661b51e680a0f64.m3u8',
+  '3': 'https://cdn-7.pishow.tv/live/1129/master.m3u8',
+  '4': 'https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8',
+  '5': 'https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8',
+  '6': 'http://103.157.248.140:8000/play/a00s/index.m3u8',
+  '7': 'https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8',
+  '8': 'https://mumt01.tangotv.in/KAIRALI/index.m3u8',
 };
 
 app.get('/box.ts', (req, res) => {
